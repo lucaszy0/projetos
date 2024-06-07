@@ -66,3 +66,85 @@ img{
     width: 70%;
     
 }
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 40px;
+        margin-left: 15%;
+        margin-top: 20%;
+    }
+    p, button {
+        margin-left: 15%;
+    }
+    .imagem {
+        width: 60%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 992px) {
+    h2 {
+        font-size: 35px;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+    p, button {
+        margin-left: 10%;
+        width: 90%;
+    }
+    .imagem {
+        width: 65%;
+        height: 400px;
+    }
+    .img2 {
+        margin-left: 200px;
+        width: 25%;
+    }
+    img {
+        margin-left: 100px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo {
+        float: none;
+        margin-left: 0;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+    p, button {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .imagem {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .img2, img {
+        margin-left: 0;
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 25px;
+        margin-top: 5%;
+    }
+    p {
+        font-size: smaller;
+    }
+    button {
+        font-size: smaller;
+        padding: 6px;
+    }
+    .img2, img {
+        width: 70%;
+    }
+}
