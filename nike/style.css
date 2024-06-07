@@ -1,0 +1,68 @@
+*{
+    
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    min-width: 280 ;
+            
+}
+.conteudo{
+    float: left; /* ou left, dependendo de onde você quer posicionar a div */
+    margin-top: 20px;
+    margin-left: 17px;
+
+}
+h1{
+    
+    font-size: small;
+    font-weight: bolder;
+}
+h2{
+    background-image: url('https://pa1.aminoapps.com/6506/1aec4f6c038d639e96b2e78e672faad0aba26412_hq.gif');
+    background-clip: text;
+    color: transparent;
+    margin-left: 20%;
+    margin-top: 30%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+p{
+    margin-top: 5px;
+    margin-left: 20%;
+    color: gray;
+    width: 400px;
+    font-size: small;
+}
+button{
+    
+    padding: 8px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 20%;
+    color: white;
+    background-color:  black;
+}
+.imagem{
+    max-width: 100%;
+    height: auto;
+    float:right;
+    background-image:linear-gradient(to bottom ,rgb(14, 255, 215) 60% ,black 4%);
+   width: 55%;
+   height: 600px;
+  
+}
+.img2{
+
+    margin-left: 300px;
+    width: 20%;
+    margin-top: 5px;
+}
+img{
+
+    margin-left: 140px;
+    width: 70%;
+    
+}
