@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-image: linear-gradient(to bottom , rgb(0, 0, 41), rgb(15, 0, 100));
+    box-shadow: 0px -20px  80px green;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 330vh;
+    
+}
+.menu > h1{
+    text-shadow: 10px 1px 10px ;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size:20px;
+}
+
+a:hover{
+  font-family: sans-serif;
+  text-decoration: underline;
+  text-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+span{
+    
+    color: rgb(0, 57, 131);
+}
+.menu{
+    color: white;
+    background: #00000000;
+    display: flex;
+   border-radius: 5px;
+}
+.menu > img {
+    margin-left: 300px;
+}
+nav{
+    gap: 4rem;
+    margin-left: 390px;
+    display: flex;
+}
+a{
+    
+    color: #fcfcfcfd;
+   text-decoration: none;
+    font-weight: 580;
+    
+    margin-top: 20px;
+}
+img{
+    display: flex;
+    margin-left: 70px;
+   width: 50px;
+
+}
+.logos{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.logo{
+    margin-top:40px;
+    margin:  auto;
+    width: 400px;
+    height: 140px;
+}
+@keyframes animacao{
+    0% {
+        box-shadow: 1px 1px 10px blue;
+        
+    }
+    50%{
+        box-shadow: 1px 1px 10px lightblue;
+        
+    }
+    100%{
+        box-shadow: 1px 1px 10px lightslategray;
+       
+    }
+}
+iframe {
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    margin-left: 32%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0, 121, 129);
+}
+section{
+    color: white;
+    min-height: 100vh;
+}
+#sobre{
+    background-image: linear-gradient(to bottom ,rgb(7, 7, 63)), rgb(15, 0, 100));
+}
+
+.quadrado{
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    background: rgb(0, 238, 255);
+    width: 15px;
+    height: 60px;
+    border-radius: 5px;
+}
+.quadrado > h1{
+    font-size: 50px;
+    margin-top: 6px;
+    margin-left: 19px;
+}
+p{
+    color: white;
+margin-left: 220px;
+margin-top: 20px;
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.caixas{
+    display: flex;
+    margin-top: 40px;
+}
+.roupa1{
+    
+    margin-left: 200px;
+  height: 250px;
+  width: 250px;
+  background-image: linear-gradient(to bottom ,transparent 20%, #A5D8FF,#AFD0D6);
+  
+  border-radius: 10px;
+}
+.roupa2{
+    
+    margin-left: 210px;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom ,transparent 20%, #A5D8FF,#AFD0D6);
+  }
+  .roupa3{
+    
+    margin-left: 200px;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom ,transparent 20%, #A5D8FF,#AFD0D6);
+  }
+  .roupa1 > img{
+    width: 250px;
+    margin-left: 0;
+  }
+  .roupa2 > img{
+    width: 250px;
+    margin-left: 0;
+  }
+  .roupa3 > img{
+    width: 250px;
+    margin-left: 0;
+  }
+  .Creditos{
+    color: white;
+    margin-top: 100px;
+    margin-left: 20%;
+  }
+  .Creditos > p{
+    background-image: linear-gradient(to right , transparent,rgb(0, 62, 119));
+   width: 240px;
+    padding: 8px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .Creditos > p:hover{
+     margin-left: 40px;
+    
+  }
