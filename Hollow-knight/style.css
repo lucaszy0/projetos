@@ -5,9 +5,9 @@
 body{
     
     background-image: linear-gradient(to bottom , rgb(0, 0, 41), rgb(15, 0, 100));
-    box-shadow: 0px -20px  80px green;
+    
     font-family: Arial, Helvetica, sans-serif;
-    height: 330vh;
+    height: 260vh;
     
 }
 .menu > h1{
@@ -28,18 +28,23 @@ span{
     
     color: rgb(0, 57, 131);
 }
+.menu > a{
+  font-size: 16pt;
+}
 .menu{
+   
     color: white;
     background: #00000000;
     display: flex;
    border-radius: 5px;
 }
 .menu > img {
+  width: 80px;
     margin-left: 300px;
 }
 nav{
     gap: 4rem;
-    margin-left: 390px;
+    margin-left: 600px;
     display: flex;
 }
 a{
@@ -86,7 +91,7 @@ iframe {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
-    margin-left: 32%;
+    margin-left: 35%;
     margin-top: 5%;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgb(0, 121, 129);
@@ -189,6 +194,9 @@ html {
     
   }
   @media screen and (max-width:1020px) {
+    .menu{
+      font-size: 25px;
+    }
     .menu > h1{
         display: none;
     }
@@ -202,6 +210,7 @@ html {
         margin-left: 20px;
     }
     p{
+      font-size: 25px;
         margin-left: 20px;
     }
     .roupa1{
@@ -246,7 +255,7 @@ html {
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-delay: 2s;
-        margin-left: 12%;
+        margin-left: 23%;
         margin-top: 5%;
         height: 230px;
         width: 400px;
