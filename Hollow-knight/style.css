@@ -188,3 +188,71 @@ html {
      margin-left: 40px;
     
   }
+  @media screen and (max-width:1020px) {
+    .menu > h1{
+        display: none;
+    }
+    .menu{
+        margin-left: 50px;
+    }
+    .logos{
+        margin-left: 5px;
+    }
+    .quadrado{
+        margin-left: 20px;
+    }
+    p{
+        margin-left: 20px;
+    }
+    .roupa1{
+    
+        margin-left: 40px;
+      height: 100px;
+      width: 100px;
+      background-image: linear-gradient(to bottom ,transparent 20%, #A5D8FF,#AFD0D6);
+      
+      border-radius: 10px;
+    }
+    .roupa2{
+        
+        margin-left: 30px;
+      height: 100px;
+      width: 100px;
+      border-radius: 10px;
+      background-image: linear-gradient(to bottom ,transparent 20%, #A5D8FF,#AFD0D6);
+      }
+      .roupa3{
+        
+        margin-left: 30px;
+      height: 100px;
+      width: 100px;
+      border-radius: 10px;
+      background-image: linear-gradient(to bottom ,transparent 20%, #A5D8FF,#AFD0D6);
+      }
+      .roupa1 > img{
+        width: 100px;
+        margin-left: 0;
+      }
+      .roupa2 > img{
+        width: 100px;
+        margin-left: 0;
+      }
+      .roupa3 > img{
+        width: 100px;
+        margin-left: 0;
+      }
+      iframe {
+        animation-name: animacao;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        margin-left: 12%;
+        margin-top: 5%;
+        height: 230px;
+        width: 400px;
+        
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgb(0, 121, 129);
+    }
+  }
+ 
