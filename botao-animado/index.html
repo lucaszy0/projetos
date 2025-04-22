@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn">Clique aqui <span class="circulo"></span ></button>
+    <script>
+        let botaoEfeito = document.querySelector(".btn");
+        let circulo = document.querySelector(".circulo");
+        
+        botaoEfeito.addEventListener("mousemove", function(e){
+            let distanciaBotao = this.getBoundingClientRect();
+        
+            let x = e.clientX - distanciaBotao.left;
+            let y = e.clientY - distanciaBotao.top;
+        
+            circulo.style.top = `${y}px`;
+            circulo.style.left= `${x}px`;
+        })
+        </script>
+</body>
+</html>
