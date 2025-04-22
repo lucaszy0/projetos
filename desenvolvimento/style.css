@@ -1,0 +1,188 @@
+*{
+    color: white;
+}
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+.light{
+    background: rgba(189, 38, 219, 0.144);
+    width: 1700px;
+    height: 800px;
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 0px;
+    border-radius: 10px 5000px 10px 5000px ;
+    filter: blur(121px);
+    box-shadow: 1px 1px 30px blue;
+}
+header{
+   margin: 0px;
+   z-index: 99;
+    align-items: center;
+    flex-direction: row;
+}
+.menu{
+    z-index: 99;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+h1{
+    margin-left: 90px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+ul{
+    margin-right: 100px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    margin-top: 30px;
+    width: 110px;
+    padding: 10px;
+    height: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    color: rgb(225, 0, 255);
+    cursor: pointer;
+
+}
+main{
+    text-align: center;
+    margin-top: 18%;
+}
+
+h2{
+    font-size: 90px;
+    font-family: sans-serif;
+    line-height: 1px;
+}
+p{
+    font-family: sans-serif;
+}
+.btn{
+    
+    border: none;
+    position: relative;
+    width: 140px;
+    font-family: sans-serif;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgba(255, 0, 234, 0.26);
+    border-radius: 10px;
+    
+    font-weight: bold;
+    
+}
+.circulo{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-radius: 50%;
+    
+    background-image: linear-gradient(to left , blueviolet, rgb(247, 91, 117) ,#ff0a33);
+    box-shadow: 1px 1px 10px red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: height .5s , width .5s;
+   
+}
+.texto {
+    position: relative;
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+}
+.btn:hover .texto {
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.btn:hover {
+    cursor: pointer;
+    box-shadow: inset -2px -2px 10px rgba(255, 255, 255, 0.144),
+    inset 2px 2px 10px rgba(255, 255, 255, 0.212);
+   
+}
+.btn:hover .circulo{
+    width: 300px;
+    height: 300px;
+    
+    transition: height .7s , width .7s;
+}
+section{
+    height: 1000px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 290px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 70px;
+    font-family: sans-serif;
+}
+article{
+    
+    height: 900px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/022/934/506/non_2x/rustic-grunge-texture-with-grain-and-stains-abstract-noise-background-graphic-illustration-with-transparent-background-free-png.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: scroll;
+    filter: saturate(300px);
+   
+}
+.habilidade-top{
+    margin-left: 100px;
+    display: inline-flex;
+}
+.habilidade-bottom{
+    margin-top: 90px;
+    margin-left: 100px;
+    display: inline-flex;
+}
+h4{
+    
+    margin-top: 20px;
+    text-align: center;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.425);
+    font-family: sans-serif;
+   
+    
+}
+img{
+    width: 30px;
+    margin-left: 190px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.img2{
+    width: 50px;
+}
+.box{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 30px;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.479);
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.13);
+    border-radius: 20px;
+    margin-left: 120px;
+    
+}
