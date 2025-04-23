@@ -1,6 +1,9 @@
 *{
     color: white;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(0, 0, 0);
 
@@ -21,6 +24,12 @@ header{
    z-index: 99;
     align-items: center;
     flex-direction: row;
+}
+.lucas{
+    color: rgba(225, 0, 255, 0.048);
+    background-image: linear-gradient(to left ,rgb(255, 255, 255), rgb(137, 43, 226), rgb(247, 91, 117) ,#ff0a331a);
+    background-clip: text;
+    
 }
 .menu{
     z-index: 99;
@@ -70,7 +79,7 @@ p{
     font-family: sans-serif;
 }
 .btn{
-    
+    margin-top: 50px;
     border: none;
     position: relative;
     width: 140px;
@@ -127,20 +136,31 @@ section{
 }
 
 h3{
-    margin-top: 290px;
+    position: absolute;
+    -webkit-text-stroke: 1px blueviolet;
+    background-image: linear-gradient(80deg, rgba(123, 8, 231, 0.911) 20%,rgba(0, 0, 255, 0)60%);
+    background-clip: text;
+     font-weight: bolder;
+     margin-top: 390px;
+     margin-left: 780px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.568);
-    font-size: 70px;
+    color: rgba(109, 2, 248, 0);
+    font-size: 90px;
     font-family: sans-serif;
+}
+p{
+    width: 700px;
+    margin: 0 auto;
+}
+#projetos{
+    position: absolute;
+    
+    margin-top: 290px;
+    
 }
 article{
     
     height: 900px;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/022/934/506/non_2x/rustic-grunge-texture-with-grain-and-stains-abstract-noise-background-graphic-illustration-with-transparent-background-free-png.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
-    background-attachment: scroll;
     filter: saturate(300px);
    
 }
@@ -154,23 +174,27 @@ article{
     display: inline-flex;
 }
 h4{
-    
+    background-image: linear-gradient(to left , black , white);
+    background-clip: text;
+    font-weight: lighter;
     margin-top: 20px;
     text-align: center;
     font-size: 90px;
-    color: rgba(255, 255, 255, 0.425);
+    color: rgba(109, 2, 248, 0.267);
     font-family: sans-serif;
    
     
 }
 img{
-    width: 30px;
-    margin-left: 190px;
+    width: 90px;
+    margin-left: 70px;
     margin-top: 20px;
     border-radius: 10px;
 }
-.img2{
-    width: 50px;
+h5{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-left: 70px;
 }
 .box{
     color: rgb(255, 255, 255);
@@ -178,11 +202,39 @@ img{
     display: inline-block;
     font-family: sans-serif;
     padding: 30px;
-    width: 400px;
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.479);
-    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.13);
+    width: 250px;
+    height: 300px;
+    background-color: rgba(2, 2, 2, 0.925);
+    box-shadow: 1px 1px 105px rgba(221, 0, 250, 0.096);
     border-radius: 20px;
     margin-left: 120px;
     
+}
+.linha1{
+    display: inline;
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-image: linear-gradient(to left , rgb(255, 153, 0),rgb(255, 174, 0));
+}
+.linha2{
+    display: inline;
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-image: linear-gradient(to left , rgb(0, 153, 255),rgb(17, 0, 255));
+}
+.linha3{
+    display: inline;
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-image: linear-gradient(to left , rgb(255, 0, 0),rgb(195, 0, 255));
+}
+.linha4{
+    display: inline;
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-image: linear-gradient(to left , rgb(174, 0, 255),rgb(73, 0, 95));
 }

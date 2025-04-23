@@ -11,3 +11,15 @@ document.addEventListener("DOMContentLoaded", function () {
         circulo.style.left = `${x}px`;
     });
 });
+gsap.registerPlugin(ScrollTrigger); 
+
+gsap.from(".text", {
+    scrollTrigger:{
+        trigger: ".text",
+        Start: "top 50%",
+        toggleActions: "play none none none",
+    },
+    opacity:0,
+    y:100,
+    duration: 2
+})
