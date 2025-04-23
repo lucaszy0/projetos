@@ -1,0 +1,26 @@
+@media  screen and (max-width:760px) {
+    img{
+        display: none;
+    }
+    header{
+        display: block;
+        text-align: center;
+    }
+    .li{
+        margin-left: 14px;
+        margin-top: 20px;
+    }
+    button{
+        margin-top: 20px;
+    }
+    .ft-main-item{
+        margin-left: 40px;
+    }
+    .linha{
+        position: absolute;
+        width: 60vh;
+        height: 2px;
+        margin-left: 20px;
+        background-color: gray;
+    }
+}
