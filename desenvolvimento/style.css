@@ -1,11 +1,11 @@
 *{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 
 }
 .light{
@@ -26,14 +26,14 @@ header{
     flex-direction: row;
 }
 .lucas{
-    color: rgba(225, 0, 255, 0.048);
-    background-image: linear-gradient(to left ,rgb(255, 255, 255), rgb(137, 43, 226), rgb(247, 91, 117) ,#ff0a331a);
+    color: rgba(225, 0, 255, 0.219);
+    background-image: linear-gradient(to left ,rgb(255, 255, 255), rgb(137, 43, 226), rgb(247, 91, 117) ,#ff0a33);
     background-clip: text;
     
 }
 .menu{
     z-index: 99;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -44,14 +44,17 @@ h1{
     font-size: 40px;
 }
 ul{
-    margin-right: 100px;
+    margin-right: 500px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+                  -20px -20px 60px #ffffff;
 }
 li{
     display: inline-block;
-    margin: 20px;
-    margin-top: 30px;
+    margin-left: 88px;
+    margin-top: 10px;
     width: 110px;
-    padding: 10px;
     height: 20px;
     font-family: sans-serif;
     border-radius: 15px;
@@ -69,17 +72,21 @@ main{
     text-align: center;
     margin-top: 18%;
 }
-
+ul{
+    background-color: white;
+}
 h2{
     font-size: 90px;
     font-family: sans-serif;
-    line-height: 1px;
+    line-height: 0px;
 }
 p{
     font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 .btn{
-    margin-top: 50px;
+    margin-top: 20px;
     border: none;
     position: relative;
     width: 140px;
@@ -88,7 +95,7 @@ p{
     padding: 10px;
     background-color: rgba(255, 0, 234, 0.26);
     border-radius: 10px;
-    
+    border: 1px solid blueviolet;
     font-weight: bold;
     
 }
@@ -97,14 +104,12 @@ p{
     height: 0px;
     position: absolute;
     border-radius: 50%;
-    
     background-image: linear-gradient(to left , blueviolet, rgb(247, 91, 117) ,#ff0a33);
     box-shadow: 1px 1px 10px red;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     transition: height .5s , width .5s;
-   
 }
 .texto {
     position: relative;
@@ -120,121 +125,11 @@ p{
 }
 .btn:hover {
     cursor: pointer;
-    box-shadow: inset -2px -2px 10px rgba(255, 255, 255, 0.144),
-    inset 2px 2px 10px rgba(255, 255, 255, 0.212);
+    
    
 }
 .btn:hover .circulo{
     width: 300px;
     height: 300px;
-    
     transition: height .7s , width .7s;
-}
-section{
-    height: 1000px;
-    text-align: center;
-}
-
-h3{
-    position: absolute;
-    -webkit-text-stroke: 1px blueviolet;
-    background-image: linear-gradient(80deg, rgba(123, 8, 231, 0.911) 20%,rgba(0, 0, 255, 0)60%);
-    background-clip: text;
-     font-weight: bolder;
-     margin-top: 390px;
-     margin-left: 780px;
-    text-align: center;
-    color: rgba(109, 2, 248, 0);
-    font-size: 90px;
-    font-family: sans-serif;
-}
-p{
-    width: 700px;
-    margin: 0 auto;
-}
-#projetos{
-    position: absolute;
-    
-    margin-top: 290px;
-    
-}
-article{
-    
-    height: 900px;
-    filter: saturate(300px);
-   
-}
-.habilidade-top{
-    margin-left: 100px;
-    display: inline-flex;
-}
-.habilidade-bottom{
-    margin-top: 90px;
-    margin-left: 100px;
-    display: inline-flex;
-}
-h4{
-    background-image: linear-gradient(to left , black , white);
-    background-clip: text;
-    font-weight: lighter;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 90px;
-    color: rgba(109, 2, 248, 0.267);
-    font-family: sans-serif;
-   
-    
-}
-img{
-    width: 90px;
-    margin-left: 70px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-h5{
-    font-family: sans-serif;
-    font-size: 40px;
-    margin-left: 70px;
-}
-.box{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    display: inline-block;
-    font-family: sans-serif;
-    padding: 30px;
-    width: 250px;
-    height: 300px;
-    background-color: rgba(2, 2, 2, 0.925);
-    box-shadow: 1px 1px 105px rgba(221, 0, 250, 0.096);
-    border-radius: 20px;
-    margin-left: 120px;
-    
-}
-.linha1{
-    display: inline;
-    position: absolute;
-    width: 250px;
-    height: 10px;
-    background-image: linear-gradient(to left , rgb(255, 153, 0),rgb(255, 174, 0));
-}
-.linha2{
-    display: inline;
-    position: absolute;
-    width: 250px;
-    height: 10px;
-    background-image: linear-gradient(to left , rgb(0, 153, 255),rgb(17, 0, 255));
-}
-.linha3{
-    display: inline;
-    position: absolute;
-    width: 250px;
-    height: 10px;
-    background-image: linear-gradient(to left , rgb(255, 0, 0),rgb(195, 0, 255));
-}
-.linha4{
-    display: inline;
-    position: absolute;
-    width: 250px;
-    height: 10px;
-    background-image: linear-gradient(to left , rgb(174, 0, 255),rgb(73, 0, 95));
 }
