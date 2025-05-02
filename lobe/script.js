@@ -19,3 +19,8 @@ gsap.from(".text", {
   y: 100,
   duration: 1
 });
+gsap.from(".img",{
+  scale:2,
+  opacity:0,
+  duration: 1,
+})

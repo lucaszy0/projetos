@@ -1,4 +1,4 @@
-@media  screen and (max-width:760px) {
+@media  screen and (max-width:860px) {
     img{
         display: none;
     }
@@ -18,7 +18,7 @@
     }
     .linha{
         position: absolute;
-        width: 60vh;
+        width: 50vh;
         height: 2px;
         margin-left: 20px;
         background-color: gray;

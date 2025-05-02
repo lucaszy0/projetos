@@ -53,8 +53,15 @@ p{
     #767676;
 }
 img{
+    width: 700px;
     margin-top: 40px;
-    border-radius: 15px;
+    border-radius: 183px 25px ;
+    box-shadow: 1px 1px 20px rgba(0, 255, 0, 0.425);
+    transition: 1s;
+}
+img:hover{
+    width: 740px;
+
 }
 h2{
     font-family: sans-serif;
