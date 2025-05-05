@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:#fff url(imagens-necessarias-site-noticias-cidade/imagens/fundo.png) repeat-x;
+    
+}
+#container{
+    width: 770px;
+    margin: 0 auto;
+   
+}
+#topo{
+    height: 160px;
+    padding-top: 20px;
+    background: url(imagens-necessarias-site-noticias-cidade/imagens/detalhe-topo.png) no-repeat right top;
+    
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+    background: url(imagens-necessarias-site-noticias-cidade/imagens/logo.png) no-repeat center;
+}
+a:link , a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+    color: #e50040;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+#topo ul li{
+    float: left;
+}
+#topo ul a{
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: white;
+    border: 1px  solid ;
+    border-color: transparent transparent transparent rgb(131, 0, 0);
+}
+#topo ul .primeiro a{
+    border-color: transparent transparent transparent transparent;
+   
+}
+#topo ul a:hover{
+    color: #69001d;
+}
+.home #navegacao #home,
+.brasil #navegacao  #brasil,
+.internacional #navegacao #navegacao,
+.fotos #navegacao #fotos
+{
+    background-color: #de003e;
+    color: white;
+    cursor: text;
+}
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+#lateral{
+    width: 180px;
+    margin: 0px 0px 20px -750px;
+    
+    float: left;
+}
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#duas-colunas #primario{
+    width: 555px;
+
+}
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario{
+    width: 270px;
+    margin: 0px 0px 20px 15px;
+
+    float: left;
+}
+
+#conteudo-rodape{
+    background: #295c71;
+    padding: 20px;
+    clear: both;
+}
+.caixa{
+    margin: 10px 0px ;
+    padding: 5px;
+    background: #f3f3f3 url(imagens-necessarias-site-noticias-cidade/imagens/fundo-caixa.png);
+
+}
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+    color: #a1a1a1;
+    background: url(imagens-necessarias-site-noticias-cidade/imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    width: 125px;
+    padding: 5px;
+    font-size: 0.9em;
+    background: white;
+}
+img{
+    border: 2px solid #dfdfdf;
+    width: 100%;
+}
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+   background: #b10333;
+   color: white;
+}
+.entrevista h3{
+    background: #de003e;
+
+ }
+ .azul{
+    font-size: 0.8em;
+    padding: 0px;
+    color: #3e7ab9;
+ }
+ .caixa-conteudo #lista-noticias h3{
+    background: none;
+    color: #3e7ab9;
+ }
+ #lista-noticias li{
+     padding: 2px;
+     border-bottom: 1px solid #ccc;
+     height: 62px;
+ }
+ #lista-noticias  li a img{
+    width: 70px;
+    float: left;
+    margin: 5px;
+ }
+ #lista-noticias li a{
+    text-decoration: none;
+ }
+ #lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0px;
+    color: #3e7ab9;
+ }
+ #lista-noticias li:hover{
+     background: #eee;
+     cursor: pointer;
+ }
+ #lista-noticias li a p{
+    font-size: 0.8em;
+    color: black;
+ }
+input.submit{
+    width: 80px;
+    color: white;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}

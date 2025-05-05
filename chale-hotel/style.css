@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff ;
+    margin: 15px;
+} 
+#conteiner{
+    background: #ede9cc url(imagens-necessarias-chale-hotel-criando-topo/imagens/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+#topo{
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-width: 250px;
+
+
+}
+#logo{
+    position: absolute;
+    background: url(imagens-necessarias-chale-hotel-criando-topo/imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(imagens-necessarias-chale-hotel-criando-topo/imagens/logo.png)no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9999px;
+}
+#area-menu{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background:url(imagens-necessarias-chale-hotel-criando-topo/imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+}
+#conteudo-menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+#menu-locais{
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+#menu-locais .locais{
+    float: left;
+    line-height: 2.1em;
+}
+a{
+    text-decoration: none;
+}
+a.reservas{
+     text-transform: uppercase;
+     background-color: #a29750;
+     color: #fff5b0;
+     padding: 5px 10px;
+     float: right;
+}
+#menu{
+    margin-top: 15px;
+}
+ul{
+    list-style: none;
+}
+ul#navegacao{
+    float: left;
+
+}
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+ul#navegacao a:hover{
+    background: #fdf6be;
+}
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+#area-principal{
+    padding: 15px 0px;
+       float: left;
+       width: 50%;
+       background: url(imagens-necessarias-chale-hotel-criando-topo/imagens/bg-area-principal.png) top left repeat-x;
+}
+#area-lateral{
+   padding: 20px 0px;
+    float: right;
+    width: 50%;
+    background: url(imagens-necessarias-chale-hotel-criando-topo/imagens/bg-area-lateral.png) top left repeat-x;
+}
+.conteudo{
+  margin: 0 auto;
+  width: 90%;
+}
+#rodape{
+    clear: both;
+    padding: 16px;
+    background: white url(imagens-necessarias-chale-hotel-criando-topo/imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+#Beneficios li{
+    height: 100px;
+    padding: 8px;
+    height: 6em;
+    border-bottom: 1px solid #f3efcb;
+}
+#Beneficios li a img{
+    width: 120px;
+    float: left;
+    margin-right: 8px;
+}
+#Beneficios li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+#Beneficios li a h3{
+    color: #614b2d;
+    font-size: 1em;
+    padding: 5px 0;
+    background: url(imagens-necessarias-chale-hotel-criando-topo/imagens/ornamento.png) no-repeat center right;
+}
+#Beneficios li a p{
+    color: black;
+       margin: 5px;
+       font-size: 0.8em;
+}
+
