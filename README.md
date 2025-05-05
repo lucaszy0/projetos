@@ -1,5 +1,8 @@
 # projetos
  Projetos realizados:
+ 
+ https://lucaszy0.github.io/projetos/TecBlog/index.html
+ 
   https://lucaszy0.github.io/projetos/museu-nacional/index.html 
   
   https://lucaszy0.github.io/projetos/noticias-cidade/index.html 
